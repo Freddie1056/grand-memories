@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Restaurant</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style-portfolio.css">
+        <link rel="stylesheet" href="css/picto-foundry-food.css" />
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link rel="icon" href="favicon-1.ico" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/hours.css">
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="row">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Grand Memories</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav main-nav  clear navbar-right ">
+                            <li><a class="navactive color_animation" href="#top">WELCOME</a></li>
+                            <li><a class="color_animation" href="#story">ABOUT</a></li>
+                            <li><a class="color_animation" href="#pricing">AMENITIES</a></li>
+                            <li><a class="color_animation" href="#beer">SCENARIES</a></li>
+                            <li><a class="color_animation" href="#bread">BREAKFAST</a></li>
+                            <li><a class="color_animation" href="#featured">DISHES</a></li>
+                            <li><a class="color_animation" href="#reservation">RESERVATION</a></li>
+                            <li><a class="color_animation" href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </div><!-- /.container-fluid -->
+        </nav>
+         
+        <div id="top" class="starter_container bg">
+            <div class="follow_container">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2 class="top-title"> Grand Memories</h2>
+                    <h2 class="white second-title">" Where the magic of Nakuru awaits. "</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============ About Us ============= -->
+
+        <section id="story" class="description_content">
+            <div class="text-content container">
+                <div class="col-md-6">
+                    <h1>About us</h1>
+                    <div class="fa fa-cutlery fa-2x"></div>
+                    <p class="desc-text">Nestled on the edge of Menengai Crater, Grand Memories Hotel offers a unique escape in Nakuru, with breathtaking views of Africa's largest volcanic caldera. Blending nature's beauty with modern comfort, our hotel provides the perfect mix of adventure and relaxation. Enjoy thoughtfully designed rooms, diverse dining options, and exceptional hospitality. Indulge in gourmet meals or casual bites, all while surrounded by stunning views. At Grand Memories, every stay is more than a visit—it’s a chance to create lasting memories in the heart of Kenya’s Rift Valley.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-section">
+                       <img src="images/kabob.jpg" width="250" height="220">
+                       <img src="images/limes.jpg" width="250" height="220">
+                       <div class="img-section-space"></div>
+                       <img src="images/radish.jpg"  width="250" height="220">
+                       <img src="images/corn.jpg"  width="250" height="220">
+                   </div>
+                </div>
+            </div>
+        </section>
+
+
+       <!-- ============ Amenities  ============= -->
+
+
+       <section id="pricing" class="description_content">
+        <div class="pricing background_content">
+            <h1><span>our </span> Amenities</h1>
+        </div>
+        <div class="text-content container">
+            <div class="row">
+                <div id="w">
+                    <!-- Filter List -->
+                    <ul id="filter-list" class="clearfix">
+                        <li class="filter" data-filter="all">All</li>
+                        <li class="filter" data-filter="breakfast">Our Rooms</li>
+                        <li class="filter" data-filter="special">Conference Halls</li>
+                        <li class="filter" data-filter="desert">Swimming Pool</li>
+                        <li class="filter" data-filter="dinner">Dinner</li>
+                    </ul>
+                    
+                    <!-- Portfolio/Items List -->
+                    <ul id="portfolio">
+                        <li class="item breakfast">
+                            <figure>
+                                <img src="images/room1.jpg" alt="Room with two single beds and a desk" />
+                                <figcaption>
+                                    <h2 class="white">$20</h2>
+                                    <p>Comfortable rooms for a relaxing stay.</p>
+                                </figcaption>
+                            </figure>
+                        </li>
+    
+                        <li class="item dinner special">
+                            <figure>
+                                <img src="images/room3.jpg" alt="Spacious conference hall setup" />
+                                <figcaption>
+                                    <h2 class="white">$20</h2>
+                                    <p>Perfect for meetings and conferences.</p>
+                                </figcaption>
+                            </figure>
+                        </li>
+    
+                        <li class="item dinner breakfast">
+                            <figure>
+                                <img src="images/room3.jpg" alt="Food served at dinner in a cozy room" />
+                                <figcaption>
+                                    <h2 class="white">$18</h2>
+                                    <p>Enjoy delicious dinner in a relaxing room.</p>
+                                </figcaption>
+                            </figure>
+                        </li>
+    
+                        <li class="item special">
+                            <figure>
+                                <img src="images/food_icon04.jpg" alt="Delicious gourmet food served" />
+                                <figcaption>
+                                    <h2 class="white">$15</h2>
+                                    <p>A special meal for any occasion.</p>
+                                </figcaption>
+                            </figure>
+                        </li>
+    
+                        <li class="item dinner">
+                            <figure>
+                                <img src="images/food_icon05.jpg" alt="An exquisite dinner plate" />
+                                <figcaption>
+                                    <h2 class="white">$20</h2>
+                                    <p>A luxurious dinner experience.</p>
+                                </figcaption>
+                            </figure>
+                        </li>
+    
+                        <li class="item special">
+                            <figure>
+                                <img src="images/food_icon06.jpg" alt="Lavish dining setup" />
+                                <figcaption>
+                                    <h2 class="white">$22</h2>
+                                    <p>Elegant dining setup for special events.</p>
+                                </figcaption>
+                            </figure>
+                        </li>
+    
+                        <li class="item desert">
+                            <figure>
+                                <img src="images/food_icon07.jpg" alt="Swimming pool with loungers" />
+                                <figcaption>
+                                    <h2 class="white">$32</h2>
+                                    <p>Relax by the pool and enjoy the view.</p>
+                                </figcaption>
+                            </figure>
+                        </li>
+    
+                        <li class="item desert breakfast">
+                            <figure>
+                                <img src="images/food_icon08.jpg" alt="Breakfast by the pool" />
+                                <figcaption>
+                                    <h2 class="white">$38</h2>
+                                    <p>Start your day with breakfast by the pool.</p>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div><!-- @end #w -->
+            </div><!-- @end .row -->
+        </div><!-- @end .container -->
+    </section>
+    
+
+        <!-- ============ Our Rooms  ============= -->
+
+
+        <section id ="beer" class="description_content">
+            <div  class="beer background_content">
+                <h1>Great <span>Place</span> to enjoy</h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-5">
+                   <div class="img-section">
+                       <img src="images/room6.jpg" width="100%">
+                   </div>
+                </div>
+                <br>
+                <div class="col-md-6 offset-md-1">
+                    <h1 class="text-center mb-4">Our Rooms</h1>
+                    <br>
+                    <!-- <div class="text-center mb-4">
+                        <i class="bi bi-house-door-fill fs-3 text-primary"></i>
+                    </div> -->
+                    <p class="desc-text text-muted text-center fs-5">
+                        At Grand Memories Hotel, our rooms and suites offer a refined blend of luxury and comfort with stunning views of the Menengai Crater. Thoughtfully designed with elegant furnishings and modern amenities, each space promises relaxation and sophistication. Whether for a romantic getaway, family vacation, or business retreat, our accommodations provide privacy, style, and attentive service—creating the perfect setting for unforgettable memories in Nakuru.
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+
+
+       <!-- ============ Our Bread  ============= -->
+
+
+        <section id="bread" class=" description_content">
+            <div  class="bread background_content">
+                <h1>Our Breakfast <span>Menu</span></h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <h1>OUR BREAKFAST</h1>
+                    <div class="icon-bread fa-2x"></div>
+                    <p class="desc-text">Wake up to the perfect start at Grand Memories Hotel! Enjoy a delightful breakfast spread featuring fresh fruits, fluffy eggs, and buttery pastries, all crafted to energize and satisfy. Paired with freshly brewed coffee or juice, it’s a breakfast experience that fuels your day and fills your heart with unforgettable flavors!</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="image_box_story2">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="images/slider1.jpg"  alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/fruits2.jpg" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/fruits1.jpg" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        
+        <!-- ============ Featured Dish  ============= -->
+
+        <section id="featured" class="description_content">
+            <div  class="featured background_content">
+                <h1>Our Featured Dishes <span>Menu</span></h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <h1>Have a look to our dishes!</h1>
+                    <div class="icon-hotdog fa-2x"></div>
+                    <p class="desc-text">Each food is handmade at the crack of dawn, using only the simplest of ingredients to bring out smells and flavors that beckon the whole block. Stop by anytime and experience simplicity at its finest.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="image_box_story2">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="images/slider1.jpg"  alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/slider2.jpg" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/slider3.JPG" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Reservation  ============= -->
+
+        <section  id="reservation"  class="description_content">
+            <div class="featured background_content">
+                <h1>Reserve a Table!</h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="inner contact">
+                    <!-- Form Area -->
+                    <div class="contact-form">
+                        <!-- Form -->
+                        <form id="contact-us" method="post" action="reserve.php">
+                            <!-- Left Inputs -->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-8 col-md-6 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                                <!-- Name -->
+                                                <input type="text" name="first_name" id="first_name" required="required" class="form" placeholder="First Name" />
+                                                <input type="text" name="last_name" id="last_name" required="required" class="form" placeholder="Last Name" />
+                                                <input type="text" name="state" id="state" required="required" class="form" placeholder="State" />
+                                                <input type="text" name="datepicker" id="datepicker" required="required" class="form" placeholder="Reservation Date" />
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                                <!-- Name -->
+                                                <input type="text" name="phone" id="phone" required="required" class="form" placeholder="Phone" />
+                                                <input type="text" name="guest" id="guest" required="required" class="form" placeholder="Guest Number" />
+                                                <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
+                                                <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                                            </div>
+
+                                            <div class="col-xs-6 ">
+                                                <!-- Send Button -->
+                                                <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">Reserve</button> 
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6 col-xs-12">
+                                        <div class="hours-section">
+                                            <h2>Hours</h2>
+                                            <hr class="divider">
+                                            <ul class="hours-list">
+                                                <li><span class="day">Monday to Friday:</span> <span class="time">7:00 AM - 10:00 PM</span></li>
+                                                <li><span class="day">Saturday & Sunday:</span> <span class="time">7:00 AM - 10:00 PM</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <!-- Clear -->
+                            <div class="clear"></div>
+                        </form>
+                    </div><!-- End Contact Form Area -->
+                </div><!-- End Inner -->
+            </div>
+        </section>
+
+        <!-- ============ Social Section  ============= -->
+      
+        <section class="social_connect">
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <span class="social_heading">FIND US ON SOCIALS</span>
+                    <ul class="social_icons">
+                        <li><a class="icon-twitter color_animation" href="#" target="_blank"></a></li>
+                        <li><a class="icon-linkedin color_animation" href="#" target="_blank"></a></li>
+                        <li><a class="icon-mail color_animation" href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <span class="social_heading">OR DIAL</span>
+                    <span class="social_info"><a class="color_animation" href="tel:883-335-6524">(+254) 7123 456 789 </a></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Contact Section  ============= -->
+
+        <section id="pricing" class="description_content">
+            <div class="pricing background_content">
+                <h1><span>Very Affordable</span> Prices</h1>
+            </div>
+            <div class="text-content container">
+                <div class="row">
+                    <div id="w">
+                        <!-- Filter List -->
+                        <!-- <ul id="filter-list" class="clearfix">
+                            <li class="filter" data-filter="all">All</li>
+                            <li class="filter" data-filter="breakfast">Our Rooms</li>
+                            <li class="filter" data-filter="special">Conference Halls</li>
+                            <li class="filter" data-filter="desert">Swimming Pool</li>
+                            <li class="filter" data-filter="dinner">Dinner</li>
+                        </ul> -->
+                        <h1>Contact us</h1>
+                        
+                        <!-- Portfolio/Items List -->
+                        <!-- <div class="col-md-6">
+                    <ul class="image_box_story2">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> -->
+                            <!-- Indicators -->
+                            <!-- <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol> -->
+
+                            <!-- Wrapper for slides -->
+                            <!-- <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="images/slider1.jpg"  alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/fruits2.jpg" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/fruits1.jpg" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul> -->
+                <!-- </div> -->
+                    <!-- </div>@end #w -->
+                </div><!-- @end .row -->
+            </div><!-- @end .container -->
+        </section>
+        <section id="contact">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.786690259702!2d36.116480873769994!3d-0.22814529976960776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1829ed3da13b1869%3A0x46e00eadf5b57d63!2sBlescohouse%20Girls&#39;%20High%20School!5e0!3m2!1sen!2ske!4v1731245844001!5m2!1sen!2ske" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="inner contact">
+                            <!-- Form Area -->
+                            <div class="contact-form">
+                                <!-- Form -->
+                                <form id="contact-us" method="post" action="contact.php">
+                                    <!-- Left Inputs -->
+                                    <div class="col-md-6 ">
+                                        <!-- Name -->
+                                        <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                                        <!-- Email -->
+                                        <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
+                                        <!-- Subject -->
+                                        <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                                    </div><!-- End Left Inputs -->
+                                    <!-- Right Inputs -->
+                                    <div class="col-md-6">
+                                        <!-- Message -->
+                                        <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+                                    </div><!-- End Right Inputs -->
+                                    <!-- Bottom Submit -->
+                                    <div class="relative fullwidth col-xs-12">
+                                        <!-- Send Button -->
+                                        <button type="submit" id="submit" name="submit" class="form-btn">Send Message</button> 
+                                    </div><!-- End Bottom Submit -->
+                                    <!-- Clear -->
+                                    <div class="clear"></div>
+                                </form>
+                            </div><!-- End Contact Form Area -->
+                        </div><!-- End Inner -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Footer Section  ============= -->
+
+        <footer class="sub_footer">
+            <div class="container">
+                <div class="col-md-4"><p class="sub-footer-text text-center">&copy; Made  <a href="https://tourmaline-lokum-5cdfb7.netlify.app/">Synergy Solutions</a></p></div>
+                <div class="col-md-4"><p class="sub-footer-text text-center">Back to <a href="#top">TOP</a></p>
+                </div>
+                <div class="col-md-4"><p class="sub-footer-text text-center">Built With Care By <a href="https://tourmaline-lokum-5cdfb7.netlify.app/" target="_blank">Us</a></p></div>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"> </script>
+        <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>     
+        <script type="text/javascript" src="js/jquery.mixitup.min.js" ></script>
+        <script type="text/javascript" src="js/main.js" ></script>
+
+    </body>
+</html>
